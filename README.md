@@ -14,6 +14,7 @@ This is a MERN (MongoDB, Express.js, React.js, Node.js) CRUD application. It all
 - **Node.js**: A JavaScript runtime for server-side development.
 - **Redux**: A state management library to manage the application state.
 - **Bootstrap**: A CSS framework for responsive design and styling.
+- **sweetalerts**
 - **JSON Web Token (JWT)**: Used for user authentication and authorization.
 
 ## Installation
@@ -30,7 +31,7 @@ Make sure you have the following installed:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mern_crud.git
+
 
 
 # For backend

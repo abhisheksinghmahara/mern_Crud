@@ -162,7 +162,7 @@ app.put("/employeeDetails/:id", authenticateJWT, async (req, res) => {
   }
 });
 
-// Delete an employee detail by ID
+// Delete an employee by ID
 app.delete("/employeeDetails/:id", authenticateJWT, async (req, res) => {
   try {
     const deletedDetail = await Detail.findByIdAndDelete(req.params.id);
